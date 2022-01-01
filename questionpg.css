@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.maindiv{
+    background-color: red;
+    height: calc(100vh - 96px);
+    display: flex;
+    flex-direction: column;
+}
+
+.maindivnav{
+    height: 40px;
+    background-color: blue;
+}
+
+.mainc{
+    height: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    /* width: 100vw; */
+}
+
+.mainc1{
+    flex: 25%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.mainc2{
+    flex:50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mainc3{
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.qat{
+    /* height: 100px; */
+    padding: 30px 10px;
+    margin: 10px;
+    justify-items: center;
+    background-color: green;
+}
+
+.life{
+    /* height: 100px ; */
+    padding: 30px 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.lifeh{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.life1{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.life2{
+    padding: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.pbar{
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.qtxtbx{
+    padding: 10px;
+    margin: 10px;
+    height: calc(100% - 105px);
+    background-color: brown;
+}
+
+#questionarea{
+    width: 100%;
+    height: 100%;
+
+}
+
+.mainc3{
+    display: flex;
+    padding: 10px;
+    margin: 20px 10px;
+    height: calc(100% - 40px);
+    background-color: blueviolet;
+    flex-direction: column-reverse;
+}
+
+.attempts{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.at1,.at2{
+    height: fit-content;
+    width: 100%;
+
+}
+
+.pied{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#att1,#att2{
+    margin: 5px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.ats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.piechart{
+    align-items: center;
+    width: 100%;
+}
+#Sbtn{
+    margin-top: 10px;
+}
+.footer{
+    background-color: yellow;
+    height: 40px;
+}
+
+@media (max-width:1024px){
+    .mainc{
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .maindiv{
+        height: fit-content;
+    }
+    .mainc1{
+        height: fit-content;
+    }
+    .mainc2{
+        height: fit-content;
+    }
+    .mainc3{
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    /* .qtxtbx{
+        min-height: 500px;
+        max-height: fit-content;
+    } */
+    #questionarea{
+        min-height: 400px;
+    }
+}
