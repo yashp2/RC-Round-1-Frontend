@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    font-family: 'Orbitron', sans-serif;
     
 }
 .giveborders{
@@ -26,7 +27,7 @@
 .givetextcolors{
     color: #d1f7ff;
     text-shadow: 0px 0px 3px #05d9e8;
-    font-family: 'Moon Dance', cursive;
+    font-family: 'Orbitron', sans-serif;
 }
 .navbarr {
     background-color: #005678;
@@ -95,6 +96,11 @@
     text-decoration: none;
     color: black;
 } */
+
+.timer{
+    display: inline-block;
+    pointer-events: none;
+}
 .mainc{
     height: calc(100% - 10px);
     display: flex;
@@ -139,7 +145,7 @@
     /* border-radius: 4px; */
 }
 .qat> h3{
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 .life{
     /* height: 100px ; */
@@ -158,7 +164,7 @@
     /* background-color: white; */
 }
 .lifeh> h3 , .markings > h4{
-    font-size: 2.3vw;
+    font-size: 1.8vw;
 }
 .life1{
     padding: 10px;
@@ -181,7 +187,7 @@
     text-align: center;
 }
 .life1btn > h4 , .life2btn > h4 , .msbl > h4 , .msbr > h4{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 .pbar{
     padding: 10px;
@@ -234,10 +240,18 @@
     border-color: #d1f7ff;
 }
 
+.attempts>h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .at1,.at2{
     height: fit-content;
     width: 100%;
     border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
 }
 
 #att1,#att2{
@@ -246,14 +260,14 @@
     height: 50px;
     text-align: left;
     border-radius: 6px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .ats{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #Sbtn{
@@ -265,6 +279,7 @@
     /* height: 450px; */
     /* background-color: yellow; */
     margin: 5px;
+    margin-bottom: 15px;
 }
 .markings >h4{
     padding: 15px;
@@ -279,6 +294,8 @@
     margin: 10px;
     /* border: 2px solid white; */
     border-color: #d1f7ff;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
 }
 .msbl{
     flex: 1;
