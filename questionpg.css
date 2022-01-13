@@ -317,10 +317,88 @@
     background-color: #005678;
 }
 
-.life1btn :hover, .life2btn :hover{
+/* .life1btn :hover, .life2btn :hover{
     color: black;
+} */
+.post {
+    display: flex;
+    /* text-decoration: none; */
+    color: #d1f7ff;
+    /* max-width: 400px; */
+    position: relative;
+    /* padding: 2rem; */
+    /* box-shadow: inset 0 0 0 4px #000, inset -4px -4px 0 6px #ccc; */
+    background-color: #01012b;
+    cursor: pointer;
+  }
+  .post:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #d1f7ff;
+    transform-origin: 0 bottom 0;
+    transform: scaleX(0);
+    transition: 0.4s ease-out;
+  }
+  .post:hover .post-title {
+    color: black;
+  }
+  .post:hover:before {
+    transform: scaleX(1);
+  }
+  
+  .post-title {
+    position: relative;
+    /* font-size: 2rem; */
+    /* font-weight: 700; */
+    /* line-height: 1.333; */
+    transition: 0.4s ease-out;
+  }
 
-}
+  .post2 {
+    display: flex;
+    /* text-decoration: none; */
+    color: #d1f7ff;
+    /* max-width: 400px; */
+    position: relative;
+    /* padding: 2rem; */
+    /* box-shadow: inset 0 0 0 4px #000, inset -4px -4px 0 6px #ccc; */
+    background-color: #d1f7ff;   
+    cursor: pointer;
+  }
+  .post2:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-color: #01012b;
+    transform-origin: 0 bottom 0;
+    transform: scaleX(1);
+    transition: 0.4s ease-out;
+  }
+  .post2:hover .post-title2 {
+    color: black;
+  }
+  .post2:hover:before {
+    transform: scaleX(0);
+  }
+  
+  .post-title2 {
+    position: relative;
+    /* font-size: 2rem; */
+    /* font-weight: 700; */
+    /* line-height: 1.333; */
+    transition: 0.4s ease-out;
+  }
+
 @media (max-width: 992px) {
   .pisblogo {
     display: none;
