@@ -134,10 +134,10 @@ justify-content: center;
     left: calc(100% - 50px);
     top:0px;
     border-radius: 50%;
-    background: url('./user.png');
+    background: url('man.svg');
     background-size: cover;  
     background-color: white;
-    border:1px solid black;
+    /* border:1px solid black; */
     z-index: 2;
 }
 
@@ -151,18 +151,19 @@ justify-content: center;
     left: -50px;
     top:0px;
     border-radius: 50%;
-    background: url('./barchart.png');
+    background: url('score.png');
     background-size: cover;  
-    border:1px solid black;
+    /* border:1px solid black; */
     z-index: 2;
 }
 .circle3{
-    background: url('./question3.jpg');
+    background: url('questionmark.png');
+    background-color: white;
     background-size: cover;  
 }
 
 .circle4{
-    background: url('./correct.jpg');
+    background: url('tick.png');
     background-size: cover;  
 }
 .rc{
