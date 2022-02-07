@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
     
 }
 .giveborders{
@@ -31,8 +33,13 @@
 }
 .navbarr {
     background-color: #005678;
+    margin: 0px;
+    padding: 2px;
   /* background-color: #1f2833; */
 
+  }
+  .navii>img{
+      height: 52px;
   }
   
   .stroke ul li a,
@@ -113,7 +120,7 @@
     /* background-color: orange; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
 }
 
@@ -179,6 +186,9 @@
     background-color: transparent;
     color: #d1f7ff;
 }
+
+
+
 .life2{
     padding: 10px;
     margin: 10px;
@@ -186,6 +196,8 @@
     border-radius: 4px;
     text-align: center;
 }
+
+
 .life1btn > h4 , .life2btn > h4 , .msbl > h4 , .msbr > h4{
     font-size: 1.2vw;
 }
@@ -199,6 +211,7 @@
     /* margin: 10px; */
     height: calc(100% - 105px);
     border-radius: 4px;
+    /* margin-bottom: 20px; */
     /* background-color: brown; */
 }
 
@@ -216,6 +229,7 @@
     /* border-radius: 4px; */
     border-color: #d1f7ff;
     color: white;
+    padding: 50px;
 }
 
 .mainc3{
@@ -347,6 +361,7 @@
   .post:hover .post-title {
     color: black;
   }
+  
   .post:hover:before {
     transform: scaleX(1);
   }
@@ -398,7 +413,13 @@
     /* line-height: 1.333; */
     transition: 0.4s ease-out;
   }
-
+  .tt2{
+      display: none;
+  }
+  .post2:hover .tt2 {
+      display: inline-block;
+    color: red;
+  }
 @media (max-width: 992px) {
   .pisblogo {
     display: none;
